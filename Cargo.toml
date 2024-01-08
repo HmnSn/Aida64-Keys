@@ -6,6 +6,7 @@ members = [
 
     "aida64-keys-lib",
 ]
+resolver = "2"
 
 [profile.release]
 opt-level = 3
@@ -17,3 +18,4 @@ incremental = false
 overflow-checks = false
 lto = true
 codegen-units = 1
+strip = true
